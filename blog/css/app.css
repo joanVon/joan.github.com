@@ -11631,10 +11631,14 @@ span.contact-item {
     #Introduction a:hover {
       text-decoration: underline; }
 
+#main-body {
+  width: 1024px;
+  margin: 0 auto; }
+
 .content-box {
   position: relative;
-  margin: 40px 16px 0px 16px;
-  padding: 0 50px;
+  margin: 40px 0 0px 0;
+  padding: 0 15px;
   border-top: 1px solid #f7f7f7; }
   .content-box .box-title {
     display: block;
@@ -11645,11 +11649,11 @@ span.contact-item {
     width: 160px;
     text-align: center;
     margin-top: -10px;
-    margin-left: -60px;
+    margin-left: -80px;
     left: 50%; }
 
 .skill-content {
-  margin: 30px 0;
+  margin: 40px 0 60px 0;
   text-align: center; }
   .skill-content .skill-item {
     position: relative;
@@ -11658,18 +11662,48 @@ span.contact-item {
     height: 200px;
     margin: 0 15px;
     border: 1px solid #ddd;
-    border-radius: 200px; }
-    .skill-content .skill-item .exp-txt {
+    border-radius: 50%; }
+    .skill-content .skill-item .skill-name {
       display: block;
       position: absolute;
       width: 100%;
       text-align: center;
-      bottom: -25px; }
+      font-size: 32px;
+      line-height: 32px;
+      top: 50%;
+      margin-top: -12px;
+      letter-spacing: 2px; }
+    .skill-content .skill-item .skill-detail {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      bottom: -60px;
+      color: #666; }
+      .skill-content .skill-item .skill-detail p {
+        margin: 0;
+        padding: 0;
+        height: 50px; }
 
 .case-card {
-  margin: 30px 0;
-  width: 512px; }
-  .case-card.put-left {
-    float: left; }
-  .case-card.put-right {
-    float: right; }
+  margin: 40px 42px;
+  width: 410px;
+  display: inline-block; }
+
+.case-txt {
+  height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box; }
+
+.blog-footer {
+  border-top: 1px solid #f7f7f7;
+  text-align: center;
+  color: #666;
+  height: 56px;
+  line-height: 56px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
