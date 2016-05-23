@@ -11607,7 +11607,10 @@ span.contact-item {
   margin-left: 14px; }
 
 .page-content {
-  padding-bottom: 50px; }
+  padding-bottom: 100px; }
+
+.hideSrc {
+  display: none; }
 
 #Introduction {
   height: 300px;
@@ -11660,9 +11663,7 @@ span.contact-item {
     display: inline-block;
     width: 200px;
     height: 200px;
-    margin: 0 15px;
-    border: 1px solid #ddd;
-    border-radius: 50%; }
+    margin: 0 15px; }
     .skill-content .skill-item .skill-name {
       display: block;
       position: absolute;
@@ -11686,9 +11687,54 @@ span.contact-item {
         margin: 0;
         padding: 0;
         height: 50px; }
+  .skill-content .wrapper {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    overflow: hidden; }
+  .skill-content .right {
+    right: 0; }
+  .skill-content .left {
+    left: 0; }
+  .skill-content .circleProgress {
+    width: 160px;
+    height: 160px;
+    border: 20px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0; }
+  .skill-content .rightcircle {
+    right: 0; }
+    .skill-content .rightcircle.html {
+      border-top: 20px solid #BA65C9;
+      border-right: 20px solid #BA65C9;
+      -webkit-transform: rotate(45deg); }
+    .skill-content .rightcircle.css {
+      border-top: 20px solid #ACEC00;
+      border-right: 20px solid #ACEC00;
+      -webkit-transform: rotate(45deg); }
+    .skill-content .rightcircle.script {
+      border-top: 20px solid #00BBD6;
+      border-right: 20px solid #00BBD6;
+      -webkit-transform: rotate(45deg); }
+  .skill-content .leftcircle {
+    left: 0; }
+    .skill-content .leftcircle.html {
+      border-bottom: 20px solid #BA65C9;
+      border-left: 20px solid #BA65C9;
+      -webkit-transform: rotate(-40deg); }
+    .skill-content .leftcircle.css {
+      border-bottom: 20px solid #ACEC00;
+      border-left: 20px solid #ACEC00;
+      -webkit-transform: rotate(-40deg); }
+    .skill-content .leftcircle.script {
+      border-bottom: 20px solid #00BBD6;
+      border-left: 20px solid #00BBD6;
+      -webkit-transform: rotate(-80deg); }
 
 .case-card {
-  margin: 40px 42px;
+  margin: 40px 42px 0px 42px;
   width: 410px;
   display: inline-block; }
 
