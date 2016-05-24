@@ -1,7 +1,0 @@
-# input and output
-source: source
-destination: blog
-
-# assets directory
-sass:
-  sass_dir: _scss
