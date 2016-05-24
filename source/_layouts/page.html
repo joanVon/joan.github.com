@@ -1,0 +1,14 @@
+{% include head.liquid %}
+  <body {% if page.class %} class="pages page-{{ page.class }}"{% endif %}>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    {% include header.liquid %}
+  <!-- content -->
+  {{ content }}
+
+  <!-- footer -->
+  <!-- <div class="footer">
+    <p style="text-align: center;">© Company 2015</p>
+  </div> -->
+	</div>
+	</body>
+</html>

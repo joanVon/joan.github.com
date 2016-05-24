@@ -1,0 +1,36 @@
+// color
+$html-color: #BA65C9 !default;
+$css-color: #ACEC00 !default;
+$script-color: #00BBD6 !default;
+$default-color: #3f51b5 !default;
+
+// isCode
+$hideSrc: none;
+$showSrc: block;
+
+.right-contact {
+	display: block;
+	color: #fff;
+	line-height: 64px;
+	padding: 0 12px;
+}
+
+span.contact-item {
+	display: inline-block;
+	vertical-align: super;	
+}
+.mdl-layout__header-row {
+	// padding: 0 16px 0 16px;
+
+	img {
+		border-radius: 50%;
+		margin-left: 14px;
+	}
+}
+
+.page-content {
+	padding-bottom: 100px;
+}
+
+.hideSrc {display: $hideSrc}
+// .showSrc {display: $showSrc}

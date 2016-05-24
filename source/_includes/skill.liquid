@@ -1,0 +1,23 @@
+<div class="skill-content">
+{% for skill in site.data.skill %}
+	<div class="skill-item circleProgress_wrapper">
+		<div class="wrapper right">
+	        <div class="circleProgress rightcircle {{ skill.target }}"></div>
+	    </div>
+	    <div class="wrapper left">
+	        <div class="circleProgress leftcircle {{ skill.target }}"></div>
+	    </div>
+
+		<span class="skill-name">{{ skill.name }}</span>
+		<span class="skill-detail">{{ skill.detail }}</span>
+	</div>
+{% endfor %}
+	<!-- <div class="skill-item css">
+		<span class="skill-name"></span>
+		<span class="skill-detail">xxxxxxxxxx</span>
+	</div>
+	<div class="skill-item js">
+		<span class="skill-name"></span>
+		<span class="skill-detail">xxxxxxxxxx</span>
+	</div> -->
+</div>
