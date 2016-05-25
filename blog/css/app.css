@@ -11747,14 +11747,11 @@ span.contact-item {
   display: -webkit-box; }
 
 .case-bg {
-  position: relative;
-  background-size: 100% 100%; }
+  position: relative; }
   .case-bg .mdl-card__title {
     color: #fff; }
   .case-bg .mdl-card__supporting-text {
     color: #f6f6f6; }
-  .case-bg .mask {
-    background-color: rgba(0, 0, 0, 0.5); }
 
 .blog-footer {
   border-top: 1px solid #f7f7f7;
