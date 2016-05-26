@@ -11723,15 +11723,15 @@ span.contact-item {
     .skill-content .leftcircle.html {
       border-bottom: 20px solid #BA65C9;
       border-left: 20px solid #BA65C9;
-      -webkit-transform: rotate(-40deg); }
+      -webkit-transform: rotate(-36deg); }
     .skill-content .leftcircle.css {
       border-bottom: 20px solid #ACEC00;
       border-left: 20px solid #ACEC00;
-      -webkit-transform: rotate(-40deg); }
+      -webkit-transform: rotate(-36deg); }
     .skill-content .leftcircle.script {
       border-bottom: 20px solid #00BBD6;
       border-left: 20px solid #00BBD6;
-      -webkit-transform: rotate(-80deg); }
+      -webkit-transform: rotate(-60deg); }
 
 .case-card {
   margin: 40px 35px 0px 35px;
